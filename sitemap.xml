@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <!-- Homepage -->
+   <url>
+      <loc>https://loko-us.github.io/Azure.Portfolio/</loc>
+      <lastmod>2024-11-25</lastmod>
+   </url>
+   
+   <!-- Page 1 -->
+   <url>
+      <loc>https://loko-us.github.io/Azure.Portfolio/profile.html</loc>
+      <lastmod>2024-11-25</lastmod>
+   </url>
+   
+   <!-- Page 2 -->
+   <url>
+      <loc>https://loko-us.github.io/Azure.Portfolio/Hinirang2.html</loc>
+      <lastmod>2024-11-25</lastmod>
+   </url>
+   
+   <!-- Page 3 -->
+   <url>
+      <loc>https://loko-us.github.io/Azure.Portfolio/Kristine.html</loc>
+      <lastmod>2024-11-25</lastmod>
+   </url>
+   
+   <!-- Page 4 -->
+   <url>
+      <loc>https://loko-us.github.io/Azure.Portfolio/Body_Parts.html</loc>
+      <lastmod>2024-11-25</lastmod>
+   </url>
 
 <url>
-  <loc>https://loko-us.github.io/Azure.Portfolio/</loc>
-  <lastmod>2024-11-25T05:45:25+00:00</lastmod>
-</url>
-
-
+      <loc>https://loko-us.github.io/Azure.Portfolio/Button_Color.html</loc>
+      <lastmod>2024-11-25</lastmod>
+   </url>
+      
 </urlset>
