@@ -14,7 +14,7 @@
   
   
   
-    <link rel="stylesheet" type="text/css" href="Style/Azure.css"/>
+    <link rel="stylesheet" type="text/css" href="Azure.Css"/>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
@@ -80,7 +80,7 @@ body {
 </head>
 <body>
 
-    <img class="paperclip" src="Images/Asura.jpg" alt="Paper Clip" width="40" onclick="showLoadingScreen('Toggle Menu.html')">
+    <img class="paperclip" src="Asura.jpg" alt="Paper Clip" width="40" onclick="showLoadingScreen('Toggle Menu.html')">
 
     <div class="header"></div>
 
@@ -96,7 +96,7 @@ body {
     <div id="sidebarMenu">
         <div class="profile-section">
             <a href="javascript:void(0);" onclick="showLoadingScreen('Profile.html')">
-                <img src="images/Diaryimg.png" alt="Profile Picture">
+                <img src="Diaryimg.png" alt="Profile Picture">
             </a>
             <h3>Andrei Delos Reyes</h3>
             <span>Web Developer</span>
@@ -121,17 +121,17 @@ body {
 
       <div class="bagyo">
         <p>
-          <img src="Images/bagyo1.jpg" alt="Image 1 - placeholder" title="Pinsalang dulot ng Bagyong Kristine">
+          <img src="bagyo1.jpg" alt="Image 1 - placeholder" title="Pinsalang dulot ng Bagyong Kristine">
           Nang dumating ang Bagyong Kristine, agad kong naramdaman ang lakas ng bagyo. Mabilis na dumating ang malalakas na hangin at ulan kaysa sa inaasahan, at pagdating ng gabi, nawalan na ng kuryente ang buong lugar pero bumalik din naman ka-agad. Lalong bumigat ang dilim dahil sa tunog ng lakas nang ulan at sa paghagulhol ng hangin.
         </p>
         <br>
         <p>
-          <img src="Images/bagyo.jpg" alt="Image 2 - placeholder" title="Mga binahang kalye dulot ng Bagyong Kristine">
+          <img src="bagyo.jpg" alt="Image 2 - placeholder" title="Mga binahang kalye dulot ng Bagyong Kristine">
           Sa kabutihang palad, hindi binaha ang aming bahay. Kahit may malakas na ulan, nanatiling tuyo ang aming lugar. Subalit ang mga taga-ibang lugar ay hindi pinalad, ang ilan sa kanila ay mabilis na tumaas ang tubig, at nakita ko sa balita na nagmamadali na iligtas ang kanilang mga gamit at makahanap ng ligtas na lugar.
         </p>
         <br>
         <p>
-          <img src="Images/bagyo3.jpg" alt="Image 3 - placeholder" title="Mga epekto ng Bagyong Kristine sa lugar">
+          <img src="bagyo3.jpg" alt="Image 3 - placeholder" title="Mga epekto ng Bagyong Kristine sa lugar">
           Ang kalunos-lunos na epekto ng Bagyong Kristine ay talagang nakakagulat at nakakalungkot. Mga punong natumba ang nakaharang sa maraming daan, at maraming bahay ang nagkaroon ng matinding pinsala mula sa tubig. Ang aming komunidad ay nagbuklod upang tumulong sa paglilinis at magbigay ng mga pangangailangan sa mga naapektuhan, nagpapakita ng lakas sa kabila ng matinding pagsubok.
         </p>
       </div>
@@ -142,7 +142,27 @@ body {
     <div class="spinner"></div>
 </div>
 
-<script src="Script/javascript1.js"></script>
+<script>     function showLoadingScreen(url) {
+    document.getElementById("loadingScreen").style.display = "flex";
+    setTimeout(function() {
+        window.location.href = url;
+    }, 1000);
+}
+
+
+
+function toggleTranslation() {
+    var translation = document.getElementById("translation");
+    if (translation.style.display === "none") {
+        translation.style.display = "block";
+    } else {
+        translation.style.display = "none";
+    }
+}
+
+
+
+</script>
 
 
 </body>
