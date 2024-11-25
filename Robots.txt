@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://lokous.github.io/Azure.Portfolio/sitemap.xml
