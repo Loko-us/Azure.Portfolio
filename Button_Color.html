@@ -9,7 +9,7 @@
     <title>Color Buttons</title>
     
     
-    <link rel="stylesheet" type="text/css" href="Style/Azure.css"/>
+    <link rel="stylesheet" type="text/css" href="azure.css"/>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     
@@ -521,7 +521,7 @@ p {
 </head>
 <body>
     
-    <img class="paperclip" src="Images/Asura.jpg" alt="Paper Clip" width="40" onclick="showLoadingScreen('Toggle Menu.html')">
+    <img class="paperclip" src="Asura.jpg" alt="Paper Clip" width="40" onclick="showLoadingScreen('index.html')">
     
     <div class="header"></div>
     <input type="checkbox" class="opensidebarMenu" id="openSidebarMenu">
@@ -535,8 +535,8 @@ p {
 
     <div id="sidebarMenu">
         <div class="profile-section">
-            <a href="javascript:void(0);" onclick="showLoadingScreen('Profile.html')">
-                <img src="images/Diaryimg.png" alt="Profile Picture">
+            <a href="javascript:void(0);" onclick="showLoadingScreen('profile.html')">
+                <img src="Diaryimg.png" alt="Profile Picture">
             </a>
             <h3>Andrei Delos Reyes</h3>
             <span>Web Developer</span>
@@ -547,8 +547,8 @@ p {
             
             <li><i class="fas fa-cloud"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Kristine.html')">Bagyong Kristine</a></li>
             
-            <li><i class="fas fa-user"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Body Parts.html')">Parts of the Body</a></li>
-                <li><i class="fas fa-circle-dot"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Button Color.html')">Css Button Color</a></li>
+            <li><i class="fas fa-user"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Body_Parts.html')">Parts of the Body</a></li>
+                <li><i class="fas fa-circle-dot"></i><a href="javascript:void(0);" onclick="showLoadingScreen('Button_Color.html')">Css Button Color</a></li>
             
             <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/llev.err" target="_blank">Instagram</a></li>
         </ul>
@@ -625,7 +625,27 @@ p {
     </div>
 
 
-<script src="Script/javascript1.js"></script>
+<script>    function showLoadingScreen(url) {
+    document.getElementById("loadingScreen").style.display = "flex";
+    setTimeout(function() {
+        window.location.href = url;
+    }, 1000);
+}
+
+
+
+function toggleTranslation() {
+    var translation = document.getElementById("translation");
+    if (translation.style.display === "none") {
+        translation.style.display = "block";
+    } else {
+        translation.style.display = "none";
+    }
+}
+
+
+
+</script>
 
 </body>
 </Html>
